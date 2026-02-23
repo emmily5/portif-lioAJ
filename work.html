@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="assets/faviconAJ.png"
+  />
+  <title>Meus Projetos - Ana Julia Ramalho Arquitetura</title>
+  <meta name="description" content="Uma seleção curada dos nossos projetos arquitetônicos, cada um contando uma história única por meio de design cuidadoso.">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/projects-data.js"></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="min-h-screen" style="background-color: var(--background);">
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="index.html" class="nav-logo">Ana Julia Ramalho Arquitetura</a>
+        <div class="nav-links">
+          <a href="work.html" class="nav-link active">PROJETOS</a>
+          <a href="services.html" class="nav-link">SERVIÇOS</a>
+          <a href="about.html" class="nav-link">SOBRE</a>
+          <a href="contact.html" class="nav-link">CONTATO</a>
+        </div>
+        <div class="nav-actions">
+          <button class="theme-toggle" aria-label="Toggle theme">
+            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </div>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">&#9776;</button>
+      </div>
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="work.html">PROJETOS</a>
+        <a href="services.html">SERVIÇOS</a>
+        <a href="about.html">SOBRE</a>
+        <a href="blog.html">BLOG</a>
+        <a href="contact.html">CONTATO</a>
+        <div class="mobile-theme-toggle">
+          <button class="theme-toggle" aria-label="Toggle theme">
+            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="max-w-7xl">
+          <h1 class="page-hero-title text-architectural">MEUS PROJETOS</h1>
+          <p class="page-hero-subtitle">
+            Uma seleção curada dos meus projetos arquitetônicos, cada um contando uma história única
+            por meio de design cuidadoso e atenção meticulosa aos detalhes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filter Categories -->
+    <section>
+      <div class="container">
+        <div class="max-w-7xl">
+          <div class="filter-bar">
+            <button class="filter-btn active" data-filter="ALL">TODOS</button>
+            <button class="filter-btn" data-filter="RESIDENTIAL">RESIDENCIAL</button>
+            <button class="filter-btn" data-filter="CORPORATIVO">CORPORATIVO</button>
+            <button class="filter-btn" data-filter="URBANO">URBANO</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section style="padding-bottom: 8rem;">
+      <div class="container">
+        <div class="max-w-7xl">
+          <div class="projects-grid">
+            <!--TCC-->
+            <div class="project-card" data-category="CORPORATIVO">
+              <a href="project.html?id=residencia-minimalista">
+                <div class="project-card-img-wrapper">
+                  <img src="assets/04.png" alt="Residência Minimalista" class="project-card-img">
+                  <div class="project-card-overlay"></div>
+                  <div class="project-card-badge"><span>RESIDENCIAL/COMERCIAL</span></div>
+                </div>
+              </a>
+              <div>
+                <h3 class="project-card-title text-architectural">EDIFÍCIO DE USO MISTO</h3>
+                <p class="project-card-location">Natal, 2025</p>
+                <p class="project-card-desc">Projeto de um edifício de uso misto que incorpora princípios do design biofílico</p>
+                <div class="project-card-meta">
+                  <div>
+                    <p class="project-card-meta-label">ÁREA</p>
+                    <p class="project-card-meta-value">1301,40 M²</p>
+                  </div>
+                  <div>
+                    <p class="project-card-meta-label">ANO</p>
+                    <p class="project-card-meta-value">2025</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--PÓRTICO-->
+            <div class="project-card" data-category="URBANO">
+              <a href="project.html?id=sede-corporativa">
+                <div class="project-card-img-wrapper">
+                  <img src="assets/2.jpg" alt="Sede Corporativa" class="project-card-img">
+                  <div class="project-card-overlay"></div>
+                  <div class="project-card-badge"><span>PÓRTICO</span></div>
+                </div>
+              </a>
+              <div>
+                <h3 class="project-card-title text-architectural">PÓRTICO EM TIBAL DO SUL/RN</h3>
+                <p class="project-card-location">Tibal do Sul, 2024</p>
+                <p class="project-card-desc">Projeto de revitalização de um pórtico histórico da cidade de Tibal do Sul, RN.</p>
+                <div class="project-card-meta">
+
+                  <div>
+                    <p class="project-card-meta-label">ANO</p>
+                    <p class="project-card-meta-value">2024</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--LIGA-->
+            <div class="project-card" data-category="CORPORATIVO">
+              <a href="project.html?id=centro-cultural">
+                <div class="project-card-img-wrapper">
+                  <img src="assets/liga4.jpg" alt="Centro Cultural" class="project-card-img">
+                  <div class="project-card-overlay"></div>
+                  <div class="project-card-badge"><span>CORPORATIVO</span></div>
+                </div>
+              </a>
+              <div>
+                <h3 class="project-card-title text-architectural">ARQUITETÔNICO DE INOVAÇÃO EM SAÚDE</h3>
+                <p class="project-card-location">NATAL, 2024</p>
+                <p class="project-card-desc">Arquitetura de inovação em saúde que conecta tradição com design contemporâneo.</p>
+                <div class="project-card-meta">
+                  <div>
+                    <p class="project-card-meta-label">ANO</p>
+                    <p class="project-card-meta-value">2024</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--INTERIORES-->
+            <div class="project-card" data-category="RESIDENTIAL">
+              <a href="project.html?id=loft-urbano">
+                <div class="project-card-img-wrapper">
+                  <img src="assets/inte1.jpg" alt="Loft Urbano" class="project-card-img">
+                  <div class="project-card-overlay"></div>
+                  <div class="project-card-badge"><span>INTERIORES</span></div>
+                </div>
+              </a>
+              <div>
+                <h3 class="project-card-title text-architectural">INTERIORES</h3>
+                <p class="project-card-location">Ceará Mirim, 2025</p>
+                <p class="project-card-desc">Interiorismo com foco em conforto e funcionalidade. Cozinha, sala de jantar e sala de estar.</p>
+                <div class="project-card-meta">
+                  <div>
+                    <p class="project-card-meta-label">ÁREA</p>
+                    <p class="project-card-meta-value">21,57 M²</p>
+                  </div>
+                  <div>
+                    <p class="project-card-meta-label">ANO</p>
+                    <p class="project-card-meta-value">2025</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--ESPAÇO DE GALERIA-->
+            <div class="project-card" data-category="CULTURAL">
+              <a href="project.html?id=espaco-de-galeria">
+                <div class="project-card-img-wrapper">
+                  <img src="assets/agen5.png" alt="Espaço de Galeria" class="project-card-img">
+                  <div class="project-card-overlay"></div>
+                  <div class="project-card-badge"><span>CULTURAL</span></div>
+                </div>
+              </a>
+              <div>
+                <h3 class="project-card-title text-architectural">AGÊNCIA DE TURISMO</h3>
+                <p class="project-card-location">Ceará Mirim, 2025</p>
+                <p class="project-card-desc">Agência de turismo com foco em design minimalista e funcionalidade.</p>
+                <div class="project-card-meta">
+                  <div>
+                    <p class="project-card-meta-label">ÁREA</p>
+                    <p class="project-card-meta-value">19 M²</p>
+                  </div>
+                  <div>
+                    <p class="project-card-meta-label">ANO</p>
+                    <p class="project-card-meta-value">2025</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--praia-->
+            <div class="project-card" data-category="RESIDENTIAL">
+              <a href="project.html?id=hotel-boutique">
+                <div class="project-card-img-wrapper">
+                  <img src="assets/praia.jpeg" alt="Hotel Boutique" class="project-card-img">
+                  <div class="project-card-overlay"></div>
+                  <div class="project-card-badge"><span>CASA DE PRAIA</span></div>
+                </div>
+              </a>
+              <div>
+                <h3 class="project-card-title text-architectural">CASA DE PRAIA</h3>
+                <p class="project-card-location">Ceará Mirim, 2025</p>
+                <p class="project-card-desc">Casa de praia com design contemporâneo, integrando elementos naturais e funcionalidades modernas.</p>
+                <div class="project-card-meta">
+                  <div>
+                    <p class="project-card-meta-label">ÁREA</p>
+                    <p class="project-card-meta-value">165,64 M²</p>
+                  </div>
+                  <div>
+                    <p class="project-card-meta-label">ANO</p>
+                    <p class="project-card-meta-value">2025</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="max-w-4xl" style="text-align: center;">
+          <h2 class="cta-title text-architectural">
+            Pronto para Iniciar<br>Seu Projeto?
+          </h2>
+          <p class="cta-text">Vamos discutir como podemos dar vida à sua visão arquitetônica</p>
+          <a href="contact.html" class="cta-link">ENTRE EM CONTATO</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artigos - ARCH STUDIO</title>
+  <meta name="description" content="Explorando a interseção entre arquitetura, design e experiência humana.">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="min-h-screen" style="background-color: var(--background);">
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="index.html" class="nav-logo">ARCH STUDIO</a>
+        <div class="nav-links">
+          <a href="work.html" class="nav-link">PROJETOS</a>
+          <a href="services.html" class="nav-link">SERVIÇOS</a>
+          <a href="about.html" class="nav-link">SOBRE</a>
+          <a href="blog.html" class="nav-link active">BLOG</a>
+          <a href="contact.html" class="nav-link">CONTATO</a>
+        </div>
+        <div class="nav-actions">
+          <button class="theme-toggle" aria-label="Toggle theme">
+            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </div>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">&#9776;</button>
+      </div>
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="work.html">PROJETOS</a>
+        <a href="services.html">SERVIÇOS</a>
+        <a href="about.html">SOBRE</a>
+        <a href="blog.html">BLOG</a>
+        <a href="contact.html">CONTATO</a>
+        <div class="mobile-theme-toggle">
+          <button class="theme-toggle" aria-label="Toggle theme">
+            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="max-w-7xl">
+          <h1 class="page-hero-title text-architectural">ARTIGOS</h1>
+          <p class="page-hero-subtitle">
+            Explorando a interseção entre arquitetura, design e experiência humana
+            por meio de análises cuidadosas e perspectivas contemporâneas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filter Categories -->
+    <section>
+      <div class="container">
+        <div class="max-w-7xl">
+          <div class="filter-bar">
+            <button class="filter-btn active" data-filter="ALL">TODOS</button>
+            <button class="filter-btn" data-filter="SUSTAINABILITY">SUSTENTABILIDADE</button>
+            <button class="filter-btn" data-filter="DESIGN">DESIGN</button>
+            <button class="filter-btn" data-filter="URBAN PLANNING">PLANEJAMENTO URBANO</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section style="padding-bottom: 8rem;">
+      <div class="container">
+        <div class="max-w-7xl">
+          <div class="blog-grid">
+
+            <!-- Post 1 -->
+            <article data-category="SUSTAINABILITY">
+              <a href="blog-post.html?id=sustainable-architecture-future" class="blog-card">
+                <div class="blog-card-img-wrapper">
+                  <img src="assets/blog-sustainable-architecture.jpg" alt="O Futuro da Arquitetura Sustentável" class="blog-card-img">
+                  <div class="blog-card-overlay"></div>
+                  <span class="blog-card-category">SUSTENTABILIDADE</span>
+                </div>
+                <div>
+                  <div class="blog-card-meta">
+                    <span>2024-03-15</span>
+                    <span class="dot">&bull;</span>
+                    <span>8 min de leitura</span>
+                    <span class="dot">&bull;</span>
+                    <span>Sarah Chen</span>
+                  </div>
+                  <h2 class="blog-card-title text-architectural">O Futuro da Arquitetura Sustentável</h2>
+                  <p class="blog-card-excerpt">Explorando como as práticas arquitetônicas modernas estão evoluindo para enfrentar desafios ambientais mantendo a excelência em design.</p>
+                  <div style="padding-top: 1rem;">
+                    <span class="blog-read-more">LEIA MAIS</span>
+                  </div>
+                </div>
+              </a>
+            </article>
+
+            <!-- Post 2 -->
+            <article data-category="DESIGN">
+              <a href="blog-post.html?id=minimalism-modern-living" class="blog-card">
+                <div class="blog-card-img-wrapper">
+                  <img src="assets/blog-minimalist-living.jpg" alt="Minimalismo nos Espaços de Vida Modernos" class="blog-card-img">
+                  <div class="blog-card-overlay"></div>
+                  <span class="blog-card-category">DESIGN</span>
+                </div>
+                <div>
+                  <div class="blog-card-meta">
+                    <span>2024-03-10</span>
+                    <span class="dot">&bull;</span>
+                    <span>6 min de leitura</span>
+                    <span class="dot">&bull;</span>
+                    <span>Marcus Rodriguez</span>
+                  </div>
+                  <h2 class="blog-card-title text-architectural">Minimalismo nos Espaços de Vida Modernos</h2>
+                  <p class="blog-card-excerpt">Como os princípios do design minimalista estão remodelando a arquitetura residencial contemporânea e os espaços interiores.</p>
+                  <div style="padding-top: 1rem;">
+                    <span class="blog-read-more">LEIA MAIS</span>
+                  </div>
+                </div>
+              </a>
+            </article>
+
+            <!-- Post 3 -->
+            <article data-category="URBAN PLANNING">
+              <a href="blog-post.html?id=urban-planning-community-spaces" class="blog-card">
+                <div class="blog-card-img-wrapper">
+                  <img src="assets/blog-urban-planning.jpg" alt="Planejamento Urbano e Espaços Comunitários" class="blog-card-img">
+                  <div class="blog-card-overlay"></div>
+                  <span class="blog-card-category">PLANEJAMENTO URBANO</span>
+                </div>
+                <div>
+                  <div class="blog-card-meta">
+                    <span>2024-03-05</span>
+                    <span class="dot">&bull;</span>
+                    <span>10 min de leitura</span>
+                    <span class="dot">&bull;</span>
+                    <span>Elena Nakamura</span>
+                  </div>
+                  <h2 class="blog-card-title text-architectural">Planejamento Urbano e Espaços Comunitários</h2>
+                  <p class="blog-card-excerpt">Examinando o papel do planejamento urbano cuidadoso na criação de comunidades vibrantes e inclusivas por meio do design arquitetônico.</p>
+                  <div style="padding-top: 1rem;">
+                    <span class="blog-read-more">LEIA MAIS</span>
+                  </div>
+                </div>
+              </a>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="max-w-4xl" style="text-align: center;">
+          <h2 class="cta-title text-architectural">Fique Informado</h2>
+          <p class="cta-text">Inscreva-se na nossa newsletter para os últimos artigos sobre arquitetura e design</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Digite seu e-mail" class="newsletter-input">
+            <button class="newsletter-btn">INSCREVER-SE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
