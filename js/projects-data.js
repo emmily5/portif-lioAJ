@@ -119,13 +119,13 @@ const projectsData = [
     area: "21,57 M²",
     excerpt: "Patrimônio industrial encontra a vida contemporânea.",
     description: `
-    O projeto parte da proposta de criar um ambiente colaborativo voltado à pesquisa, experimentação e desenvolvimento tecnológico aplicado à saúde.
+    O projeto foi concebido com o objetivo de criar ambientes integrados, funcionais e acolhedores, valorizando a convivência e o uso cotidiano dos espaços.
 
-    A organização espacial foi pensada para favorecer a integração entre diferentes áreas de atuação, com espaços flexíveis para trabalho em equipe, reuniões, capacitações e testes de protótipos. A setorização busca equilibrar áreas de concentração com ambientes de troca e aprendizado.
+    A cozinha foi planejada para otimizar a circulação e a praticidade, com mobiliário sob medida, organização eficiente e boa iluminação de trabalho. A integração com a sala de jantar favorece a interação durante as refeições e amplia a sensação de espaço.
 
-    A iluminação natural, o conforto ambiental e a ergonomia orientam a concepção dos ambientes, contribuindo para produtividade e bem-estar dos usuários. Materiais de fácil manutenção e soluções funcionais garantem adaptabilidade às constantes mudanças tecnológicas.
+    A sala de estar prioriza conforto e permanência, com layout que organiza o mobiliário e facilita a comunicação entre os ambientes. A escolha de cores neutras e materiais aconchegantes contribui para uma atmosfera equilibrada e atemporal.
 
-    Assim, o espaço atua como suporte físico para inovação, incentivando a colaboração multidisciplinar e fortalecendo o desenvolvimento de soluções na área da saúde.
+    A iluminação foi pensada em camadas — geral, funcional e decorativa — permitindo diferentes cenários de uso ao longo do dia. Assim, o conjunto busca aliar estética e funcionalidade, proporcionando um ambiente confortável, prático e convidativo para o dia a dia.
     `,
     mainImage: "assets/inte1.jpg",
     images: [
@@ -160,7 +160,7 @@ const projectsData = [
 
     Assim, o espaço atua como suporte físico para inovação, incentivando a colaboração multidisciplinar e fortalecendo o desenvolvimento de soluções na área da saúde.
     `,
-    mainImage: "assets/agen5.png",
+    mainImage: "assets/agen5.jpeg",
     images: [
       "assets/agen2.png",
       "assets/agen3.png",
@@ -185,19 +185,19 @@ const projectsData = [
     area: "165,64 M²",
     excerpt: "Hospitalidade de luxo redefinida por meio de contenção arquitetônica.",
     description: `
-    O projeto parte da proposta de criar um ambiente colaborativo voltado à pesquisa, experimentação e desenvolvimento tecnológico aplicado à saúde.
+    O projeto foi concebido com o objetivo de criar ambientes integrados, funcionais e acolhedores, valorizando a convivência e o uso cotidiano dos espaços.
 
-    A organização espacial foi pensada para favorecer a integração entre diferentes áreas de atuação, com espaços flexíveis para trabalho em equipe, reuniões, capacitações e testes de protótipos. A setorização busca equilibrar áreas de concentração com ambientes de troca e aprendizado.
+    A cozinha foi planejada para otimizar a circulação e a praticidade, com mobiliário sob medida, organização eficiente e boa iluminação de trabalho. A integração com a sala de jantar favorece a interação durante as refeições e amplia a sensação de espaço.
 
-    A iluminação natural, o conforto ambiental e a ergonomia orientam a concepção dos ambientes, contribuindo para produtividade e bem-estar dos usuários. Materiais de fácil manutenção e soluções funcionais garantem adaptabilidade às constantes mudanças tecnológicas.
+    A sala de estar prioriza conforto e permanência, com layout que organiza o mobiliário e facilita a comunicação entre os ambientes. A escolha de cores neutras e materiais aconchegantes contribui para uma atmosfera equilibrada e atemporal.
 
-    Assim, o espaço atua como suporte físico para inovação, incentivando a colaboração multidisciplinar e fortalecendo o desenvolvimento de soluções na área da saúde.
+    A iluminação foi pensada em camadas — geral, funcional e decorativa — permitindo diferentes cenários de uso ao longo do dia. Assim, o conjunto busca aliar estética e funcionalidade, proporcionando um ambiente confortável, prático e convidativo para o dia a dia.
     `,
     mainImage: "assets/praia.jpeg",
     images: [
       "assets/praia1.png",
       "assets/praia2.png",
-      "assets/praia3.png"
+      "assets/praia3.jpg"
     ],
     details: [
       { label: "LOCALIZAÇÃO", value: "Ceara Mirim, RN" },
