@@ -160,7 +160,7 @@ const projectsData = [
 
     Assim, o espaço atua como suporte físico para inovação, incentivando a colaboração multidisciplinar e fortalecendo o desenvolvimento de soluções na área da saúde.
     `,
-    mainImage: "assets/agen5.jpeg",
+    mainImage: "assets/agen5.jpg",
     images: [
       "assets/agen2.png",
       "assets/agen3.png",
