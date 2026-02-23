@@ -144,21 +144,21 @@ const projectsData = [
   },
   {
     id: "espaco-de-galeria",
-    title: "ESPAÇO DE GALERIA",
-    category: "AGENCIA",
-    categoryLabel: "AGENCIA",
+    title: "AGÊNCIA DE TURISMO",
+    category: "AGÊNCIA",
+    categoryLabel: "AGÊNCIA",
     location: "Ceará Mirim, RN",
     year: "2025",
     area: "19 M²",
-    excerpt: "Galeria minimalista projetada para exibir arte sem distrações.",
+    excerpt: "Agência de turismo religioso.",
     description: `
-    O projeto parte da proposta de criar um ambiente colaborativo voltado à pesquisa, experimentação e desenvolvimento tecnológico aplicado à saúde.
+  O projeto foi desenvolvido com a proposta de criar um ambiente acolhedor e sereno, alinhado à identidade religiosa da agência e à experiência de planejamento das viagens.
 
-    A organização espacial foi pensada para favorecer a integração entre diferentes áreas de atuação, com espaços flexíveis para trabalho em equipe, reuniões, capacitações e testes de protótipos. A setorização busca equilibrar áreas de concentração com ambientes de troca e aprendizado.
+  A organização dos espaços prioriza um atendimento confortável e humanizado, com áreas de recepção, espera e atendimento individualizado. A ambientação valoriza elementos simbólicos discretos, cores suaves e iluminação aconchegante, transmitindo tranquilidade e confiança ao visitante.
 
-    A iluminação natural, o conforto ambiental e a ergonomia orientam a concepção dos ambientes, contribuindo para produtividade e bem-estar dos usuários. Materiais de fácil manutenção e soluções funcionais garantem adaptabilidade às constantes mudanças tecnológicas.
+  Materiais naturais, texturas leves e pontos de destaque decorativo reforçam a atmosfera de contemplação, sem comprometer a funcionalidade do espaço de trabalho. A disposição do mobiliário favorece a circulação e a privacidade durante o atendimento.
 
-    Assim, o espaço atua como suporte físico para inovação, incentivando a colaboração multidisciplinar e fortalecendo o desenvolvimento de soluções na área da saúde.
+  Dessa forma, o projeto busca unir funcionalidade e significado, oferecendo um espaço que acolhe o público e traduz os valores de fé, acolhimento e espiritualidade associados às viagens religiosas.
     `,
     mainImage: "assets/agen5.jpg",
     images: [
