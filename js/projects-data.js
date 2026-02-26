@@ -179,7 +179,7 @@ const projectsData = [
     id: "hotel-boutique",
     title: "CASA DE PRAIA",
     category: "HOSPITALITY",
-    categoryLabel: "HOTELARIA",
+    categoryLabel: "CASA DE PRAIA",
     location: "Ceará Mirim, RN",
     year: "2025",
     area: "165,64 M²",
